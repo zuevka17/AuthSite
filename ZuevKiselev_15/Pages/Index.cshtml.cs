@@ -6,7 +6,7 @@ using ZuevKiselev_15.Models;
 namespace ZuevKiselev_15.Pages
 {
     [Authorize]
-    public class IndexModel : PageModel
+    public class IndexModel : BasePageModel
     {
         private readonly ILogger<IndexModel> _logger;
         public List<User> Users { get; set; }

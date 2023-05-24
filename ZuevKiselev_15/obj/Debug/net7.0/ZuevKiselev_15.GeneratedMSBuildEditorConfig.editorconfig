@@ -20,12 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/student/Documents/ZuevKiselev_15/ZuevKiselev_15/Pages/BasePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmFzZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/student/Documents/ZuevKiselev_15/ZuevKiselev_15/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/student/Documents/ZuevKiselev_15/ZuevKiselev_15/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/student/Documents/ZuevKiselev_15/ZuevKiselev_15/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/student/Documents/ZuevKiselev_15/ZuevKiselev_15/Pages/Privacy.cshtml]

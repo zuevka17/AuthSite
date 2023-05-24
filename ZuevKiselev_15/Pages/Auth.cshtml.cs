@@ -8,12 +8,8 @@ using ZuevKiselev_15.Models;
 
 namespace ZuevKiselev_15.Pages
 {
-    public class AuthModel : PageModel
+    public class AuthModel : BasePageModel
     {
-        public void OnGet()
-        {
-            
-        }
         public async Task<IActionResult> OnPost(string? returnUrl)
         {
             var form = HttpContext.Request.Form;
@@ -33,6 +29,10 @@ namespace ZuevKiselev_15.Pages
             ClaimsIdentity claimsIdentity = new ClaimsIdentity(claims, "Cookies");
             await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
             return Redirect(returnUrl ?? "/");
+        }
+        public void OnGet()
+        {
+            
         }
     }
 }

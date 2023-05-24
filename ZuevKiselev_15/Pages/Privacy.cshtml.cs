@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace ZuevKiselev_15.Pages
 {
-    public class PrivacyModel : PageModel
+    public class PrivacyModel : BasePageModel
     {
         private readonly ILogger<PrivacyModel> _logger;
 

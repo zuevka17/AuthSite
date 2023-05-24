@@ -12,7 +12,9 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     .AddCookie(options => options.LoginPath = "/Auth");
 builder.Services.AddAuthorization();
 
+
 var app = builder.Build();
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
@@ -21,9 +23,10 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.MapRazorPages();
-
-app.UseAuthorization();
 app.UseAuthentication();
- 
+app.UseAuthorization();
+
+app.MapRazorPages();
+app.MapDefaultControllerRoute();
+
 app.Run();
