@@ -8,9 +8,10 @@ namespace ZuevKiselev_15.Pages
 {
     public class BasePageModel : PageModel
     {
-        public User? user { get; set; }
+        public Representative? user { get; set; }
         public override void OnPageHandlerExecuting(PageHandlerExecutingContext context)
         {
+            ViewData["SiteName"] = "FlexAir Aviacompany";
             Claim? claim = HttpContext.User.FindFirst(ClaimTypes.Name);
             if (claim != null)
             {

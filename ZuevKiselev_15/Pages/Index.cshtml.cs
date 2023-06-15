@@ -9,12 +9,12 @@ namespace ZuevKiselev_15.Pages
     public class IndexModel : BasePageModel
     {
         private readonly ILogger<IndexModel> _logger;
-        public List<User> Users { get; set; }
+        public List<Representative> Representatives { get; set; }
 
         public IndexModel()
         {
-            Is5110Context db = new Is5110Context();
-            Users = db.Users.ToList();
+            MydbContext db = new MydbContext();
+            Representatives = db.Representatives.ToList();
         }
         public void OnGet()
         {

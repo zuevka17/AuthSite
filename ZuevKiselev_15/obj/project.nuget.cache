@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "paYe2DOueeA8OQ6z6H1NmfRby0DV1VBcUs+J/AagCwZU7n1xlO0vtOwMQaFQ++lUO0X7H85732gOZzwNClYqCA==",
+  "dgSpecHash": "+4ReRJGpoktYPat62ZO3K0L9wdC84j/2xx12ht3Bopf0httK8junJfmhWTfugeoKtdxZI8E9n7LHeIZqoeo5Ag==",
   "success": true,
   "projectFilePath": "C:\\Users\\student\\Documents\\ZuevKiselev_15\\ZuevKiselev_15\\ZuevKiselev_15.csproj",
   "expectedPackageFiles": [
@@ -48,6 +48,8 @@
     "C:\\Users\\student\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\mysql.data\\8.0.33\\mysql.data.8.0.33.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\mysql.entityframeworkcore\\7.0.2\\mysql.entityframeworkcore.7.0.2.nupkg.sha512",
+    "C:\\Users\\student\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\student\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\student\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

@@ -1,0 +1,66 @@
+﻿@page
+@model ZuevKiselev_15.Pages.AirplanesCRUD.AirplanesModel
+@{
+    ViewData["Title"] = "GIGA AIRPLANE EDITOR ONLINE DOWNLOAD WITHOUT VIRUSES";
+    ZuevKiselev_15.Models.MydbContext db = new Models.MydbContext();
+}
+<div>
+    <h3>FlexAir's Airplanes</h3>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Model</th>
+                <th scope="col">Location</th>
+                <th scope="col">Number of seats</th>
+                <th scope="col">Load capacity</th>
+                <th scope="col">Is ready?</th>
+                <th scope="col">Delete Button</th>
+                <th scope="col">Edit Button</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ZuevKiselev_15.Models.Airplane b in db.Airplanes)
+            {
+                <tr>
+                    <td><p>@b.Id</p></td>
+                    <td><p>@b.Model</p></td>
+                    <td><p>@b.Location</p></td>
+                    <td><p>@b.NumberOfSeats</p></td>
+                    <td><p>@b.LoadCapacity</p></td>
+                    @{
+                        if (b.ReadyForDeparture == 1)
+                        {
+                            <td><p>READY</p></td>
+                        }
+                        else
+                        {
+                            <td><p>NOT READY</p></td>
+                        }
+                    }
+                    <form method="get" action="DeleteAirplane">
+                    <td>
+                        <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type='submit' value='@b.Id' name="Delete">
+                            Delete
+                        </button>
+                    </td>
+                    </form>
+                    <form method="get" action="EditAirplane">
+                    <td>
+                        <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type='submit' value='@b.Id' name="Edit">
+                            Edit
+                        </button>
+                    </td>
+                    </form>
+                </tr>
+            }
+        <tbody>
+    </table>
+    <p>
+        <form method="get" action="CreateAirplane">
+        <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type='submit' value='Create' name="Create">
+            Create Airplane press at own risk!
+        </button>
+        </form>
+    </p>
+</div>

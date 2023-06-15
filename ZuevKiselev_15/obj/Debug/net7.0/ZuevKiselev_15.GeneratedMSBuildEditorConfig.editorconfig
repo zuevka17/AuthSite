@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\student\Documents\ZuevKiselev_15\ZuevKiselev_15
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/student/Documents/ZuevKiselev_15/ZuevKiselev_15/Pages/AirplanesCRUD/Airplanes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWlycGxhbmVzQ1JVRFxBaXJwbGFuZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/student/Documents/ZuevKiselev_15/ZuevKiselev_15/Pages/AirplanesCRUD/CreateAirplane.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWlycGxhbmVzQ1JVRFxDcmVhdGVBaXJwbGFuZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/student/Documents/ZuevKiselev_15/ZuevKiselev_15/Pages/AirplanesCRUD/DeleteAirplane.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWlycGxhbmVzQ1JVRFxEZWxldGVBaXJwbGFuZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/student/Documents/ZuevKiselev_15/ZuevKiselev_15/Pages/AirplanesCRUD/EditAirplane.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWlycGxhbmVzQ1JVRFxFZGl0QWlycGxhbmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/student/Documents/ZuevKiselev_15/ZuevKiselev_15/Pages/Auth.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

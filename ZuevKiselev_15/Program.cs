@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using ZuevKiselev_15.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

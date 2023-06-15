@@ -1,0 +1,32 @@
+﻿@page
+@model ZuevKiselev_15.Pages.AirplanesCRUD.EditAirplaneModel
+@{
+}
+<div>
+    <h3>FlexAir's Airplanes Edit</h3>
+
+    <form method="post">
+        <input name="Id" value="@Model.airplane?.Id" type="hidden" />
+        <p>
+            <label>Model</label><br />
+            <input name="Model" value="@Model.airplane?.Model" />
+        </p>
+        <p>
+            <label>Location</label><br />
+            <input name="Location" value="@Model.airplane?.Location" />
+        </p>
+        <p>
+            <label>Number of seats</label><br />
+            <input name="NumberOfSeats" value="@Model.airplane?.NumberOfSeats" type="number" />
+        </p>
+        <p>
+            <label>Load capacity</label><br />
+            <input name="LoadCapacity" value="@Model.airplane?.LoadCapacity" type="number" />
+        </p>
+        <p>
+            <label>Ready for departure(1 for ready, 0 for not ready)</label><br />
+            <input name="ReadyForDeparture" value="@Model.airplane?.ReadyForDeparture" type="number" />
+        </p>
+        <input type="submit" value="Сохранить" />
+    </form>
+</div>
